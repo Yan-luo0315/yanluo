@@ -1,0 +1,763 @@
+.header {
+    width: 1525px;
+    height: 90px;
+}
+
+.nav {
+    width: 315px;
+    height: 60px;
+    background-image: url(logoday12192.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-top: 15px;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.hd {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    float: right;
+    margin-right: 40px;
+}
+
+li a,
+.dn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+li a:hover,
+.dr:hover .dn {
+    background-color: black;
+    color: white
+}
+
+li.dr {
+    display: inline-block;
+}
+
+.dc {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #fff;
+}
+
+.dc a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dc a:hover {
+    background-color: black;
+    color: white;
+}
+
+.dr:hover .dc {
+    display: block;
+}
+
+.dc img {
+    padding: 8px;
+    width: 160px;
+    height: 70px;
+}
+
+.input {
+    color: rgb(153, 153, 153);
+    border: 1px solid rgb(204, 204, 204);
+    margin-top: 5px;
+    width: 200px;
+    height: 28px;
+    border-radius: 18px;
+    font-size: 15px;
+    line-height: 28px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.last {
+    position: relative;
+}
+
+.last div {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.top {
+    width: 1525px;
+    height: 740px;
+    background-color: skyblue;
+}
+
+.top img {
+    width: 100%;
+    height: 100%;
+}
+
+.middle {
+    width: 1200px;
+    height: 1110px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.banner {
+    box-sizing: border-box;
+    width: 500px;
+    height: 240px;
+    background-color: royalblue;
+    background-image: url(0605111317.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    transition: 1.0s;
+}
+
+.fixed {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+.banner:hover {
+    background-size: 115%;
+}
+
+.banner:hover>.fixed {
+    display: block;
+}
+
+.banner1 {
+    box-sizing: border-box;
+    width: 550px;
+    height: 350px;
+    background-color: royalblue;
+    background-image: url(0605111328.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    transition: 1.0s;
+    float: left;
+    position: absolute;
+    top: 0px;
+    right: 140px;
+}
+
+.fixed1 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+.banner1:hover {
+    background-size: 115%;
+}
+
+.banner1:hover>.fixed1 {
+    display: block;
+}
+
+.banner2 {
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    background-color: royalblue;
+    background-image: url(0605111359.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    transition: 1.0s;
+    float: left;
+    margin-top: 10px;
+}
+
+.fixed2 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+.banner2:hover {
+    background-size: 115%;
+}
+
+.banner2:hover>.fixed2 {
+    display: block;
+}
+
+.banner5 {
+    box-sizing: border-box;
+    width: 690px;
+    height: 390px;
+    background-color: blue;
+    background-image: url(0605111411.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    transition: 1.0s;
+    float: left;
+    margin-top: 120px;
+    margin-left: 10px;
+}
+
+.fixed5 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+.banner5:hover {
+    background-size: 110%;
+}
+
+.banner5:hover>.fixed5 {
+    display: block;
+}
+
+.banner6 {
+    box-sizing: border-box;
+    width: 657px;
+    height: 350px;
+    background-color: royalblue;
+    background-image: url(0605111420.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    transition: 1.0s;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.fixed6 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+.banner6:hover {
+    background-size: 115%;
+}
+
+.banner6:hover>.fixed6 {
+    display: block;
+}
+
+.banner7 {
+    box-sizing: border-box;
+    width: 533px;
+    height: 350px;
+    background-color: royalblue;
+    background-image: url(0605111429.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    transition: 1.0s;
+    float: right;
+    margin-top: 10px;
+}
+
+.fixed7 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+.banner7:hover {
+    background-size: 115%;
+}
+
+.banner7:hover>.fixed7 {
+    display: block;
+}
+
+.n {
+    position: relative;
+    width: 60px;
+    height: 350px;
+    background-color: rgb(38, 105, 105);
+    float: right;
+    margin-left: 10px;
+    position: absolute;
+    top: 0px;
+    right: 70px;
+}
+
+.n img {
+    width: 100%;
+    height: 100%;
+}
+
+.m {
+    position: relative;
+    width: 60px;
+    height: 350px;
+    background-color: rgb(38, 10, 105);
+    float: right;
+    margin-left: 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.m img {
+    width: 100%;
+    height: 100%;
+}
+
+.maskn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, .3);
+}
+
+.n:hover .maskn {
+    display: block;
+}
+
+.maskm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, .3);
+}
+
+.m:hover .maskm {
+    display: block;
+}
+
+.maskv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, .3);
+}
+
+.x1 {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+
+.x1 a {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.x1:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.x2 {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 280px;
+    left: 35px;
+}
+
+.x2 a {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.x2:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.x3 {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 350px;
+    right: 30px;
+}
+
+.x3 a {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.x3:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.x4 {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 400px;
+    right: 30px;
+}
+
+.x4 a {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.x4:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.x5 {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 260px;
+    right: 30px;
+}
+
+.x5 a {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.x5:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.x6 {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 310px;
+    right: 30px;
+}
+
+.x6 a {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.x6:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.x7 {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 250px;
+    right: 30px;
+}
+
+.x7 a {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.x7:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.x8 {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.x8 a {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.x8:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.x9 {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+.x9 a {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.x9:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.bottom {
+    height: 365px;
+    background-color: rgb(51, 51, 51);
+}
+
+span {
+    display: inline-block;
+}
+
+.span1 {
+    width: 755px;
+    height: 150px;
+    border-right: 1px solid gray;
+    float: left;
+    background-image: url(dizhi.png);
+    background-repeat: no-repeat;
+    background-position: center 25px;
+    text-align: center;
+}
+
+.span1 .di {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 75px;
+}
+
+.span1 .zhi {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.span2 {
+    width: 650px;
+    height: 150px;
+    float: left;
+    background-image: url(dianhua.png);
+    background-repeat: no-repeat;
+    background-position: center 25px;
+    text-align: center;
+}
+
+.span2 .dian {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 75px;
+}
+
+.span2 .hua {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.span3 {
+    width: 1500px;
+    height: 180px;
+    border-top: 1px solid gray;
+    background-image: url(zhifu.png);
+    background-repeat: no-repeat;
+    background-position: center 20px;
+    text-align: center;
+}
+
+.span3 .zhifu {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 100px;
+}
+
+.span3 .fangshi {
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+}
+
+.span3 .fangshi .wenxin {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 2px;
+}
+
+.span3 .fangshi .wenxin img {
+    width: 100%;
+    height: 100%;
+}
+
+.span3 .fangshi .paypal {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 2px;
+}
+
+.span3 .fangshi .paypal img {
+    width: 100%;
+    height: 100%;
+}
+
+.span3 .fangshi .zhifubao {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 2px;
+}
+
+.span3 .fangshi .zhifubao img {
+    width: 100%;
+    height: 100%;
+}
+
+.span3 .com {
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.span3 .com .gol {
+    display: inline-block;
+    width: 40px;
+    height: 54px;
+    position: absolute;
+    top: -10px;
+    left: 632px;
+}
+
+.span3 .com .gol img {
+    width: 100%;
+    height: 100%;
+}
+
+.leftfixed {
+    width: 24px;
+    height: 134px;
+    padding: 3px 8px;
+    text-align: center;
+    border-radius: 2px;
+    background-color: rgb(199, 155, 104);
+    position: fixed;
+    top: 300px;
+    right: 0px;
+    font-size: 20px;
+}
+
+.leftfixed a {
+    color: #ffffff;
+}
+
+.leftfixed img {
+    margin-bottom: 5px;
+}
+
+.leftfixed:hover {
+    background-color: rgb(249, 222, 183)
+}
